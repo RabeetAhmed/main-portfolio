@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+    
+        <!-- Meta Data -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="format-detection" content="address=no" />
+        <meta name="author" content="Rabeet Ahmed" />
+        <meta name="description" content="Rabeet Ahmed Resume and Portfolio" />
+    
+        <!-- Twitter data -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@RabeetAhmed7860">
+        <meta name="twitter:title" content="Rabeet Ahmed">
+        <meta name="twitter:description" content="Rabeet Ahmed Resume and Portfolio">
+    
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Resume and Website Design" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="your url website" />
+        <meta property="og:description" content="Rabeet Ahmed Resume and Portfolio" />
+        <meta property="og:site_name" content="Rabeet Ahmed Resume" />
+    
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
+        <link rel="shortcut icon" href="assets/images/favicons/favicon.png" type="image/png">
+    
+        <!-- Styles -->
+        <link rel="stylesheet" type="text/css" href="assets/styles/vendors/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+        
+<style>
+    i.far.fa-smile-beam {
+    font-size: 180px;
+}
+</style>
+<script type="text/javascript">  
+    function RedirectAfterDelayFn() {  
+        var seconds = 4;  
+        var dvCountDown = document.getElementById("CountDown");  
+        var lblCount = document.getElementById("CountDownLabel");  
+        dvCountDown.style.display = "block";  
+        lblCount.innerHTML = seconds;  
+        setInterval(function () {  
+            seconds--;  
+            lblCount.innerHTML = seconds;  
+            if (seconds == 0) {  
+                dvCountDown.style.display = "none";  
+                window.location = "index.php";
+            }  
+        }, 1000);  
+    }
+    window.onload = function(){
+    document.getElementById('btn').click();
+                                            
+    var scriptTag = document.createElement("script");
+    scriptTag.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js";
+    document.getElementsByTagName("head")[0].appendChild(scriptTag);
+    }  
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0HGH07LJVK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0HGH07LJVK');
+</script>  
+</head>
+<body>
+  <div class="page-wrapper">
+        <!--End Main Header One-->
+        <section class="contact-page">
+            <div class="container">
+                <div class="row">
+                    <!--Start Contact Page Content-->
+                    <div class="col-xl-12 col-lg-12 col-md-12">
+                        <div class="contact-page__content text-center">
+                            <h2><i class="far fa-smile-beam"></i></h2>
+                            <br>
+                            <div class="title">
+                                <h2>Thank You For Contacting Us</h2>
+                                <br>
+                                <h2>Our Experts Will Reaching You Soon</h2>
+                                <form id="form1" runat="server">  
+                                    <div>  
+                                        <input type="button" value="" id="btn" onclick="RedirectAfterDelayFn()" style="display: none;"/>  
+                                        <br />  
+                                        <br />  
+                                        <div id="CountDown" style="display: none">  
+                                           <h6>You will be redirected after</h6> 
+                                            <br />  
+                                          <h2><span id="CountDownLabel"></span></h2>  
+                                        </div>  
+                                    </div>  
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Contact Page Content-->
+                </div>
+            </div>
+        </section>
+
+
+        <!--Start Footer One -->
+        <footer class="footer-one clearfix">
+            <div class="footer-one__bottom">
+                <div class="container">
+                    <div class="bottom-inner">
+                        <div class="copyright">
+                            <p>Copyright © <a style="color: var(--thm-primary);" href="rabeetahmed.social">Rabeet Ahmed</a> 2022-23 All Rights Reserved.</p>
+                        </div>
+
+                        <ul class="footer-one__bottom-menu">
+                            <li><a href="terms&condition.html">Terms &amp; Condition</a></li>
+                            <li><a href="privacy.html">Privacy </a></li>
+                            <!-- <li><a href="#">Support</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!--End Footer One-->
+    </div>
+	<!-- JavaScripts -->
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/plugins.min.js"></script>
+	<script src="assets/js/common.js"></script>
+	<script src="assets/js/mapbox.init.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</body>
+</html>
