@@ -1,4 +1,4 @@
-<?php $page = 'index'; include 'header.php';?>
+<?php $page = 'index'; include 'includes/header.php';?>
 
 <title>Rabeet Ahmed - About 🔥</title>
 
