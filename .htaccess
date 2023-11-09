@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI}  !(\.png|\.jpg|\.webp|\.gif|\.jpeg|\.zip|\.css|\.svg|\.js|\.pdf)$
+RewriteRule (.*) routes.php [QSA,L]
+
+AddType application/font-woff2 .woff2
+AddType application/x-font-ttf .ttf
